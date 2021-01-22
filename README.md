@@ -65,5 +65,11 @@ I pubished three transforms to stick everything together (yes they should be in 
 
 <code>rosrun tf static_transform_publisher -0.09 0.0 0.0 0.0 0.0 0.0 camera_link base_link 100</code>
 
+Run GMapping:
 
+<code>rosrun gmapping slam_gmapping scan:=scan</code>
+
+Run RVIZ and add: TF, Laser, Map (and connect to the relevent topics). Driving the robot manually should produce the map. Save the map with:
+
+<code>rosrun map_server map_saver -f ~/map</code>
 
