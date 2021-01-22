@@ -9,9 +9,11 @@ How to make it work:
 Install ROS & create a Catkin Workspace. I used ROS Melodic on Ubuntu 18.0 4 on both my Jetson Nano mounted on the robot, and my workstation:
 
 http://wiki.ros.org/melodic/Installation/Ubuntu
+
 http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 
 Install the Intel Realsense Dev kit and ROS drivers:
 
 https://github.com/IntelRealSense/librealsense/blob/development/doc/distribution_linux.md
+
 https://github.com/IntelRealSense/realsense-ros
