@@ -58,7 +58,9 @@ Lanuch the following nodes. The last one launches the ROSserial node to communic
 I pubished three transforms to stick everything together (yes they should be in a URDF file):
 
 <code>rosrun tf static_transform_publisher 0.0 0.0 0.2 3.141592 0.0 0.0 camera_link laser 100</code>
+
 <code>rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 odom camera_odom_frame 100</code>
+
 <code>rosrun tf static_transform_publisher -0.09 0.0 0.0 0.0 0.0 0.0 camera_link base_link 100</code>
 
 
