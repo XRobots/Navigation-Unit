@@ -52,7 +52,7 @@ https://github.com/XRobots/ReallyUsefulRobot/blob/main/ROS/rur_navigation/launch
 Lanuch the following nodes. The last one launches the ROSserial node to communicate with the Arduino controlling the robot hardware.
 
 <code>roslaunch rplidar_ros rplidar.launch</code>  
-<coder>oslaunch realsense2_camera rs_t265.launch</code>  
+<code>roslaunch realsense2_camera rs_t265.launch</code>  
 <code>rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0</code>
 
 I pubished three transforms to stick everything together (yes they should be in a URDF file):
