@@ -73,3 +73,7 @@ Run RVIZ and add: TF, Laser, Map (and connect to the relevent topics). Driving t
 
 <code>rosrun map_server map_saver -f ~/map</code>
 
+Launch the modified RUR robot navigation node wch now looks at the Odom topic from the camera and the map:
+
+<code>roslaunch rur_navigation rur_navigation.launch map_file:=$HOME/map.yaml</code>
+
