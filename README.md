@@ -29,3 +29,13 @@ Install the ROS navigation stack, and GMapping:
 https://github.com/ros-planning/navigation
 
 https://github.com/ros-perception/slam_gmapping
+
+Install the ROSserial node:
+
+https://github.com/ros-drivers/rosserial
+
+You'll also need some way to drive the robot manually. I have a ROS remote, ut you can use Keyboard teleop:
+
+https://github.com/ros-teleop/teleop_twist_keyboard
+
+
