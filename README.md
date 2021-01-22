@@ -38,4 +38,17 @@ You'll also need some way to drive the robot manually. I have a ROS remote, ut y
 
 https://github.com/ros-teleop/teleop_twist_keyboard
 
+I repurposed the Really Useful Robot navigation code for my robot.
+
+https://github.com/XRobots/ReallyUsefulRobot/tree/main/ROS/rur_navigation
+
+Since the robot is not using wheel Odometry, one thing will need to be changed in move_base.launch to match the Odom topic fromt he camera. On line 4:
+
+change: default="odom"
+to: default="/camera/odom/sample"
+
+https://github.com/XRobots/ReallyUsefulRobot/blob/main/ROS/rur_navigation/launch/move_base.launch
+
+
+
 
