@@ -8,7 +8,7 @@ Code in the Arduino directory is to control a differental drive robot with two w
 
 How to make it work:
 
-Install ROS & create a Catkin Workspace. I used ROS Melodic on Ubuntu 18.0 4 on both my Jetson Nano mounted on the robot, and my workstation:
+Install ROS & create a Catkin Workspace. I used ROS Melodic on Ubuntu 18.04 on both my Jetson Nano mounted on the robot, and my workstation:
 
 http://wiki.ros.org/melodic/Installation/Ubuntu
 
