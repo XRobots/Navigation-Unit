@@ -1,5 +1,7 @@
 # Navigation-Unit
 
+Video: https://youtu.be/xB9tfi_Bzs8
+
 Drop-in naviation unit for my robot using an RPLIDAR A1 and and Intel Realsense T265 Tracking Camera.
 
 This is not a tutorial, you'll require some prior ROS knowledge.
